@@ -1,10 +1,6 @@
 #include <LinearRegression.h>
 
-#include <LinearRegression.h>
-
 LinearRegression lr = LinearRegression(0,100);
-
-double values[] = {0,0,0};
 
 void setup() {
   lr.learn(1,3);
