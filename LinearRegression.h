@@ -23,8 +23,8 @@ class LinearRegression
     double covarXY = 0;
     int n = 0;
     bool fixedN = false;
-    int minY;
-    int maxY;
+    int minX;
+    int maxX;
     // m*x + b = y;
     double m = 0;
     double b = 0;
