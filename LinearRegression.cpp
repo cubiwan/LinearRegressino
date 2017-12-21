@@ -3,8 +3,8 @@
 
 
 LinearRegression::LinearRegression(int min, int max){
-  minY = min;
-  maxY = max;
+  minX = min;
+  maxX = max;
 }
 
 void LinearRegression::learn(int x, int y){
@@ -12,9 +12,9 @@ void LinearRegression::learn(int x, int y){
     n++;
   }
 
-  if(y < minY){
+  if(x < minX){
     return;
-  } else if(y > maxY){
+  } else if(x > maxX){
     return;
   }
 
