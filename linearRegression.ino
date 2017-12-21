@@ -34,9 +34,5 @@ void loop() {
   Serial.println(values[1]);  
 
   delay(2000);
-
-  
-  // put your main code here, to run repeatedly:
-
 }
 
