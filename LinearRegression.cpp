@@ -2,12 +2,12 @@
 #include "LinearRegression.h"
 
 
-LinearRegression::LinearRegression(int min, int max){
+LinearRegression::LinearRegression(double min, double max){
   minX = min;
   maxX = max;
 }
 
-void LinearRegression::learn(int x, int y){
+void LinearRegression::learn(double x, double y){
   if(!fixedN){
     n++;
   }
@@ -48,11 +48,11 @@ double LinearRegression::correlation() {
   return correlation;
 }
 
-double LinearRegression::calculate(int x) {
+double LinearRegression::calculate(double x) {
   return (m*x) + b;
 }
 
-void LinearRegression::fixN(int maxN) {
+void LinearRegression::fixN(double maxN) {
   fixedN = true;
   n = maxN;
 }
