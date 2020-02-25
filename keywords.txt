@@ -13,9 +13,10 @@ Linearregression	KEYWORD2
 learn	KEYWORD2
 calculate	KEYWORD2
 correlation	KEYWORD2
-fixN	KEYWORD2
 getValues	KEYWORD2
+reset   KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
 #######################################
+
