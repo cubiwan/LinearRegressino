@@ -5,16 +5,25 @@ Library to calculate linear regression in arduino.
 ### Create
 
 ```c
+LinearRegression lr = LinearRegression();
+```
+
+```c
 LinearRegression lr = LinearRegression(0,100);
 ```
 
 ### Methods
+```c
+LinearRegression();  
+```
+
+Initializes object 
 
 ```c
 LinearRegression(int min, int max);  
 ```
 
-Initializes object
+Initializes the object with limits to the value of X
 * min: min value of X
 * max: max value of X
 
@@ -40,11 +49,10 @@ double correlation();
 Return actual correlation value
 
 ```c
-void fixN(int maxN);  
+void reset();  
 ```
 
-Fix value of N (numer of samples) is useful when you need updates continuously
-the parameters of the linear regression
+Reset values. Start learning since zero.
 
 ```c
 void getValues(double values[]);
