@@ -65,4 +65,4 @@ Returns parameters of the linear regression
 
 **Y = m*X + b**   
 
-*n* is the number of examples
+**n** is the number of examples
