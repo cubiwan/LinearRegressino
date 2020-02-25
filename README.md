@@ -63,4 +63,6 @@ Returns parameters of the linear regression
 * values[1] = b;
 * values[2] = n;
 
-**Y = m*X + b**
+**Y = m*X + b**   
+
+*n* is the number of examples
